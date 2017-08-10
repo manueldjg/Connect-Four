@@ -1,33 +1,109 @@
-// let playerOne;
-// let playerTwo;
-// let playerTurn = 0;
-// let PLayerOneMoves = [];
-// let playerTwMoves = [];
-// let circles = $('#c1 > div.c1');
-//
-// function clickAssign() {
-//     let circles = document.getElementsByClassName('r1');
-//     for (let i = 0; i < circles.length; i++) {
-//         circles[i].addEventListener('click', prompt);
-//         console.log('clicked!')
+let playerOne = [];
+let playerTwo = [];
+let playTurn = 0;
+let playerOneMoveCount = [];
+let playerTwoMoveCount = [];
+let circles = $('div.r1, div.r2, div.r3, div.r4, div.r5, div.r6, div.r7');
+
+//clicking start button, will prompt for player names, and put them in their respective arrays
+
+$('button#start').click(function(){
+    getPlayerOneName();
+    getPlayerTwoName();
+});
+function getPlayerOneName(){
+    let nameInput = prompt('Enter first players name!');
+    playerOne.push(nameInput)
+}
+function getPlayerTwoName(){
+  let nameInput = prompt('Enter second players name!');
+  playerTwo.push(nameInput)
+}
+// when a circle is clicked, a color is populated.
+//need it to populate, appropriate player color
+
+
+// function letThemPlay() {
+//   $(circles).click(function() {
+//     playerOneMoves();
+//     playerTwoMoves();
+//   })
+// }
+// letThemPlay();
+
+function playerOneMoves() {
+    let circles = $('div.r1, div.r2, div.r3, div.r4, div.r5, div.r6, div.r7');
+        $(circles).click(function(){
+            $(this).css('background-color', 'red');
+            console.log('click')
+        })
+}
+playerOneMoves();
+
+function playerTwoMoves() {
+  let circles = $('div.r1, div.r2, div.r3, div.r4, div.r5, div.r6, div.r7');
+  $(circles).click(function(){
+    $(this).css('background-color', 'blue');
+    console.log('click')
+  })
+}
+// playerTwoMoves();
+
+//trying to make sure when a circle is clicked
+//that the correct color is assigned and the correct
+//player is recognized
+
+// function currentPlayer(){
+//     turnCount();
+//     if (playTurn % 2 === 0){
+//         currentPlayer.push(turnCount[i])
+//     }   else {
+//         currentPlayer.push(turnCount[i])
 //     }
 // }
 //
-// clickAssign()
+function turnCount(){
+  playTurn++;
+}
 //
-// $("#start").click(function(){
-//   alert('clicked!');
+//
+//
+//
+// function playerMove() {
+//   turnCount();
+//   if (playTurn % 2 === 0){
+//     clickAssign();
+//   } else {
+//     clickAssign()
+//   }
+//   if (playTurn > 42){
+//     var conf = confirm('Cats Game, play again?');
+//     if(conf){
+//       resetBoard();
+//     }
+//   }
+// }
+//
+// playerMove()
+
+// $('div.r1.c1, div.r2.c1').click(function(){
+//     $(this).css('background-color','red');
 // });
-//
-//
-// $('#c1.div.r1').click(function(){
-//     $('#c1.div.r1').css('style','red')
+
+//IMPORTANT!
+
+// $('div.r1').click(function(){
+//   $(this).css('background-color','red');
 // });
 
-let circle1 = $('#c1 > div.r1.c1');
+// $('div.r2.c1').click(function(){
+//   $(this).css('background-color','blue');
+// });
 
-$('circle1').click(function(){
-    circle1.css('style', 'red');
-});
 
-var circle1 = doc
+// $('div.r1.c1').click()
+
+// function starNewGame(){
+//
+//
+// }

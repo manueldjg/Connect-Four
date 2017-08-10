@@ -1,22 +1,33 @@
-body{
-  background:white;
+html{
+    width: 100%;
+    height: 100%;
 }
 
+body{
+  background: white;
+    width: 100%;
+    height: 100%;
+}
+div#wrapper{
+    width: 100%;
+    height: 100%;
+}
 h1{
     text-align:center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom:5px;
-    font-family: 'Comfortaa', cursive;
+    padding-bottom: 60px;
+    font-family: 'Dosis', sans-serif;
     font-size: 50px;
     /*text-shadow: 0 0 1px #007665, 0 0 8px #007665;*/
-    color: black;
+    color: #e0cda7;
 }
 button#start {
   font-size: 16px;
   border-radius: 8px;
-  background-color: #8ecfd7;
-  color: white;
+  background-color: #fffae3;
+  color: black;
   position: absolute;
   top: 7%;
   right: 80%;
@@ -25,23 +36,23 @@ button#start {
 button#reset {
   font-size: 16px;
   border-radius: 8px;
-  background-color: #8ecfd7;
-  color: white;
+  background-color: #fffae3;
+  color: black;
   position: absolute;
   top: 7%;
   left: 80%;
 }
 
-p.info{
-  text-align:center;
-  width:600px;
-  margin:0 auto;
-  font-size:15px;
-  font-weight:bold;
-  color: #007665;
-  margin-bottom:20px;
-  font-family: helvetica;
-}
+/*p.info{*/
+  /*text-align:center;*/
+  /*width:600px;*/
+  /*margin:0 auto;*/
+  /*font-size:15px;*/
+  /*font-weight:bold;*/
+  /*color: #007665;*/
+  /*margin-bottom:20px;*/
+  /*font-family: helvetica;*/
+/*}*/
 #c1{
     position: absolute;
     height: 700px;
@@ -94,10 +105,10 @@ p.info{
 div#gameBody{
   margin-left: auto;
   margin-right: auto;
-  border-color: black;
+  border-color: #e0cda7;
   border-style: solid;
   width: 727px;
-  height: 700px;
+  height: 600px;
  }
 div.c1{
     border-style: solid;
