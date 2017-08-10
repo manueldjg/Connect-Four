@@ -1,14 +1,16 @@
 body{
-  background:#eee;
+  background:white;
 }
 
 h1{
-  text-align:center;
-  margin-bottom:5px;
-  font-family: 'Comfortaa', cursive;
-  font-size: 50px;
-  text-shadow: 0 0 1px #007665, 0 0 8px #007665;
-  color: white;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    /*text-shadow: 0 0 1px #007665, 0 0 8px #007665;*/
+    color: black;
 }
 button#start {
   font-size: 16px;
@@ -40,28 +42,79 @@ p.info{
   margin-bottom:20px;
   font-family: helvetica;
 }
-
+#c1{
+    position: absolute;
+    height: 700px;
+    width: 100px;
+    margin-left: 1px;
+}
+#c2{
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100px;
+    left: 100px;
+    margin-left: 4px;
+}
+#c3{
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100px;
+    left: 100px;
+}
+#c4{
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100px;
+    left: 100px;
+}
+#c5{
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100px;
+    left: 100px;
+}
+#c6{
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100px;
+    left: 100px;
+}
+#c7{
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100px;
+    left: 100px;
+}
 div#gameBody{
+  margin-left: auto;
+  margin-right: auto;
   border-color: black;
   border-style: solid;
-  width: 700px;
+  width: 727px;
   height: 700px;
  }
 div.c1{
-  border-style: solid;
-  border-color: black;
-  width: 95px;
-  height: 94px;
-  margin: 0;
-  border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    width: 95px;
+    height: 94px;
+    margin: 0;
+    border-radius: 50%;
 }
 div.c2{
-  border-style: solid;
-  border-color: black;
-  width: 95px;
-  height: 94px;
-  margin: 0;
-  border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    width: 95px;
+    height: 94px;
+    margin: 0;
+    border-radius: 50%;
+    left: 100px;
 }
 div.c3{
   border-style: solid;
@@ -70,6 +123,7 @@ div.c3{
   height: 94px;
   margin: 0;
   border-radius: 50%;
+  left: 100px;
 }
 div.c4{
   border-style: solid;
@@ -78,6 +132,7 @@ div.c4{
   height: 94px;
   margin: 0;
   border-radius: 50%;
+  left: 100px;
 }
 div.c5{
   border-style: solid;
@@ -86,6 +141,7 @@ div.c5{
   height: 94px;
   margin: 0;
   border-radius: 50%;
+  left: 100px;
 }
 div.c6{
   border-style: solid;
@@ -94,6 +150,7 @@ div.c6{
   height: 94px;
   margin: 0;
   border-radius: 50%;
+  left: 100px;
 }
 div.c7{
   border-style: solid;
@@ -102,6 +159,7 @@ div.c7{
   height: 94px;
   margin: 0;
   border-radius: 50%;
+  left: 100px;
 }
 
 

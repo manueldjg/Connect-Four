@@ -1,54 +1,33 @@
-let playerOne;
-let playerTwo;
-let playerTurn = 0;
-let PLayerOneMoves = [];
-let playerTwMoves = [];
-let circles = document.getElementsByClassName('c1');
+// let playerOne;
+// let playerTwo;
+// let playerTurn = 0;
+// let PLayerOneMoves = [];
+// let playerTwMoves = [];
+// let circles = $('#c1 > div.c1');
+//
+// function clickAssign() {
+//     let circles = document.getElementsByClassName('r1');
+//     for (let i = 0; i < circles.length; i++) {
+//         circles[i].addEventListener('click', prompt);
+//         console.log('clicked!')
+//     }
+// }
+//
+// clickAssign()
+//
+// $("#start").click(function(){
+//   alert('clicked!');
+// });
+//
+//
+// $('#c1.div.r1').click(function(){
+//     $('#c1.div.r1').css('style','red')
+// });
 
-function clickAssign() {
-    let circles = document.getElementsByClassName('c1');
-    for (let i = 0; i < circles.length; i++) {
-        circles[i].addEventListener('click', prompt);
-        console.log('clicked!')
-    }
-}
+let circle1 = $('#c1 > div.r1.c1');
 
-clickAssign()
-function currentPlayer() {
-    turnCount();
-    if (playTurn % 2 === 0){
-        currentPlayer.push(turnCount[i])
-    } else {
-        currentPlayer.push(turnCount[i])
-    }
-}
-function playerMove() {
-    turnCount();
-    if (playTurn % 2 === 0){
-        this.style.backgroundColor = red;
-        playerXMoves.push(parseInt(this.id));
-        this.removeEventListener('click', playerMove);
-        checkForWin(playerXMoves);
-    } else {
-        this.style.backgroundColor = blue;
-        playerOMoves.push(parseInt(this.id));
-        this.removeEventListener('click', playerMove);
-        checkForWin(playerOMoves)
-    }
-    if (playTurn >= 42){
-        var conf = confirm('Cats Game, play again?');
-        if(conf){
-            resetBoard();
-        }
-    }
-}
+$('circle1').click(function(){
+    circle1.css('style', 'red');
+});
 
-
-function turnCount () {
-    playTurn++;
-}
-function startANewGame() {
-    clickAssign();
-};
-
-startANewGame();
+var circle1 = doc
