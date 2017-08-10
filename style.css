@@ -41,6 +41,69 @@ p.info{
   font-family: helvetica;
 }
 
+div#gameBody{
+  border-color: black;
+  border-style: solid;
+  width: 700px;
+  height: 700px;
+ }
+div.c1{
+  border-style: solid;
+  border-color: black;
+  width: 95px;
+  height: 94px;
+  margin: 0;
+  border-radius: 50%;
+}
+div.c2{
+  border-style: solid;
+  border-color: black;
+  width: 95px;
+  height: 94px;
+  margin: 0;
+  border-radius: 50%;
+}
+div.c3{
+  border-style: solid;
+  border-color: black;
+  width: 95px;
+  height: 94px;
+  margin: 0;
+  border-radius: 50%;
+}
+div.c4{
+  border-style: solid;
+  border-color: black;
+  width: 95px;
+  height: 94px;
+  margin: 0;
+  border-radius: 50%;
+}
+div.c5{
+  border-style: solid;
+  border-color: black;
+  width: 95px;
+  height: 94px;
+  margin: 0;
+  border-radius: 50%;
+}
+div.c6{
+  border-style: solid;
+  border-color: black;
+  width: 95px;
+  height: 94px;
+  margin: 0;
+  border-radius: 50%;
+}
+div.c7{
+  border-style: solid;
+  border-color: black;
+  width: 95px;
+  height: 94px;
+  margin: 0;
+  border-radius: 50%;
+}
+
 
 
 .disc{
